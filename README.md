@@ -1,38 +1,49 @@
-# FormLens MVP
+# FormLens
 
-Local screenshot-to-field-inventory prototype. It runs pretrained ScreenParser for visual controls and RapidOCR for visible English labels, then matches them with deterministic geometry rules. Feature development is frozen for submission.
+FormLens is a simple tool that looks at a picture of a blank form and finds the fields on it.
 
-## Run
+It can find text boxes, checkboxes, radio buttons, select fields, and nearby labels.
+
+## Try the live demo
+
+[Open FormLens](https://form-lens-hgjz9cdsynkxf9ogf2xdow.streamlit.app/)
+
+Upload a blank form screenshot and FormLens will show the marked-up form, a list of detected fields, confidence information, and a downloadable JSON file.
+
+## Why it was built
+
+Forms are easy for people to understand but difficult for software to read from an image. FormLens turns a form screenshot into structured information that other software can use later.
+
+## How it works
+
+1. A pretrained detector finds the visual controls.
+2. OCR reads the words on the form.
+3. A matching step connects controls with nearby labels.
+
+The project uses existing pretrained tools. It was not trained from scratch.
+
+## Run it on your computer
 
 ```bash
-.venv/bin/streamlit run app.py
+cd /Users/vibhor/Downloads/MLP
+source .venv/bin/activate
+streamlit run app.py
 ```
 
-Open the local URL printed by Streamlit and upload a PNG, JPEG, or WebP blank-form screenshot.
+Then open the local address shown in the terminal and upload a PNG, JPG, or WebP image.
 
-## Test sample
+## Privacy
 
-```bash
-.venv/bin/python tests/create_sample.py
-.venv/bin/python tests/test_e2e.py
-```
+The local version processes images on your computer. The live demo processes images on its hosted Streamlit server, so avoid uploading private or sensitive forms there.
 
-The generated image is `tests/fixtures/english_registration_form.png`; the smoke test writes validated output files to `outputs/`.
+## Project files
 
-## Output
+- `app.py` — the Streamlit interface.
+- `formlens/pipeline.py` — detection, OCR, and label matching.
+- `models/ScreenParser/best.pt` — the pretrained detector.
+- `evaluation/` — test results and reports.
+- `docs/VIVA_QUESTIONS.md` — project presentation questions and answers.
 
-The interface renders an annotated image and exposes PNG and complete JSON downloads. The image uses thin control outlines, separate dashed OCR regions, compact field IDs, and match lines. Each field contains detector class, normalized control type, bounding box, nearby OCR label, detector/OCR/matching confidence values, explicit match status (`Matched`, `Uncertain`, or `Unmatched`), and a review flag. Filters are available for control type and match status; selecting a field highlights it in magenta.
+## Current limitations
 
-Hindi OCR and browser DOM matching are intentionally outside this MVP.
-
-## Submission documents
-
-- `docs/FINAL_SUBMISSION.md` — abstract, architecture, reproducibility, evaluation boundary, and limitations.
-- `docs/VIVA_QUESTIONS.md` — viva questions with concise answers.
-- `evaluation/REPORT.md` — synthetic development-set evaluation.
-- `evaluation/holdout/REPORT.md` — independent synthetic holdout.
-- `evaluation/real_world/REPORT.md` — separate five-form robustness check.
-
-Inference is local and uses the isolated `.venv`. No cloud API, browser extension, database, Docker, Node.js, local LLM, training dataset, or fine-tuning is required.
-
-Vercel is not the runtime target for this Streamlit server. The GitHub project can be linked to Vercel, but the app requires a persistent Python/Streamlit process; run it locally or on a Streamlit-compatible Python host.
+FormLens works best with clear, digital-looking forms. Dense scanned forms, handwriting, long instructions, and unusual layouts may produce extra detections or require human review.
