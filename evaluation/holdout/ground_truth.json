@@ -1,0 +1,589 @@
+[
+  {
+    "image": "holdout_11.png",
+    "width": 1280,
+    "height": 860,
+    "controls": [
+      {
+        "id": "c1",
+        "control_type": "text_input",
+        "label": "Applicant name",
+        "box": {
+          "x": 80,
+          "y": 216,
+          "width": 500,
+          "height": 52
+        }
+      },
+      {
+        "id": "c2",
+        "control_type": "text_input",
+        "label": "Contact email",
+        "box": {
+          "x": 680,
+          "y": 216,
+          "width": 500,
+          "height": 52
+        }
+      },
+      {
+        "id": "c3",
+        "control_type": "select",
+        "label": "Application type",
+        "box": {
+          "x": 80,
+          "y": 366,
+          "width": 500,
+          "height": 52
+        }
+      },
+      {
+        "id": "c4",
+        "control_type": "checkbox",
+        "label": "I accept the policy",
+        "box": {
+          "x": 680,
+          "y": 380,
+          "width": 27,
+          "height": 27
+        }
+      }
+    ]
+  },
+  {
+    "image": "holdout_12.png",
+    "width": 1280,
+    "height": 860,
+    "controls": [
+      {
+        "id": "c1",
+        "control_type": "text_input",
+        "label": "Building number",
+        "box": {
+          "x": 370,
+          "y": 216,
+          "width": 760,
+          "height": 52
+        }
+      },
+      {
+        "id": "c2",
+        "control_type": "text_input",
+        "label": "Street name",
+        "box": {
+          "x": 370,
+          "y": 326,
+          "width": 760,
+          "height": 52
+        }
+      },
+      {
+        "id": "c3",
+        "control_type": "text_input",
+        "label": "Town",
+        "box": {
+          "x": 370,
+          "y": 436,
+          "width": 760,
+          "height": 52
+        }
+      },
+      {
+        "id": "c4",
+        "control_type": "checkbox",
+        "label": "Mailing address is current",
+        "box": {
+          "x": 115,
+          "y": 565,
+          "width": 27,
+          "height": 27
+        }
+      }
+    ]
+  },
+  {
+    "image": "holdout_13.png",
+    "width": 1280,
+    "height": 860,
+    "controls": [
+      {
+        "id": "c1",
+        "control_type": "select",
+        "label": "Service category",
+        "box": {
+          "x": 80,
+          "y": 221,
+          "width": 1060,
+          "height": 52
+        }
+      },
+      {
+        "id": "c2",
+        "control_type": "radio",
+        "label": "Email",
+        "box": {
+          "x": 80,
+          "y": 355,
+          "width": 27,
+          "height": 27
+        }
+      },
+      {
+        "id": "c3",
+        "control_type": "radio",
+        "label": "Phone",
+        "box": {
+          "x": 250,
+          "y": 355,
+          "width": 27,
+          "height": 27
+        }
+      },
+      {
+        "id": "c4",
+        "control_type": "radio",
+        "label": "Either",
+        "box": {
+          "x": 420,
+          "y": 355,
+          "width": 27,
+          "height": 27
+        }
+      },
+      {
+        "id": "c5",
+        "control_type": "text_input",
+        "label": "Notes",
+        "box": {
+          "x": 80,
+          "y": 516,
+          "width": 1060,
+          "height": 100
+        }
+      }
+    ]
+  },
+  {
+    "image": "holdout_14.png",
+    "width": 1280,
+    "height": 860,
+    "controls": [
+      {
+        "id": "c1",
+        "control_type": "text_input",
+        "label": "Given name",
+        "box": {
+          "x": 80,
+          "y": 221,
+          "width": 330,
+          "height": 52
+        }
+      },
+      {
+        "id": "c2",
+        "control_type": "text_input",
+        "label": "Family name",
+        "box": {
+          "x": 475,
+          "y": 221,
+          "width": 330,
+          "height": 52
+        }
+      },
+      {
+        "id": "c3",
+        "control_type": "text_input",
+        "label": "Identifier",
+        "box": {
+          "x": 870,
+          "y": 221,
+          "width": 330,
+          "height": 52
+        }
+      },
+      {
+        "id": "c4",
+        "control_type": "checkbox",
+        "label": "Verified",
+        "box": {
+          "x": 80,
+          "y": 390,
+          "width": 27,
+          "height": 27
+        }
+      },
+      {
+        "id": "c5",
+        "control_type": "select",
+        "label": "Status",
+        "box": {
+          "x": 475,
+          "y": 391,
+          "width": 330,
+          "height": 52
+        }
+      },
+      {
+        "id": "c6",
+        "control_type": "checkbox",
+        "label": "Keep me informed",
+        "box": {
+          "x": 870,
+          "y": 390,
+          "width": 27,
+          "height": 27
+        }
+      }
+    ]
+  },
+  {
+    "image": "holdout_15.png",
+    "width": 1280,
+    "height": 860,
+    "controls": [
+      {
+        "id": "c1",
+        "control_type": "radio",
+        "label": "Option alpha",
+        "box": {
+          "x": 110,
+          "y": 205,
+          "width": 27,
+          "height": 27
+        }
+      },
+      {
+        "id": "c2",
+        "control_type": "radio",
+        "label": "Option beta",
+        "box": {
+          "x": 110,
+          "y": 285,
+          "width": 27,
+          "height": 27
+        }
+      },
+      {
+        "id": "c3",
+        "control_type": "radio",
+        "label": "Option gamma",
+        "box": {
+          "x": 110,
+          "y": 365,
+          "width": 27,
+          "height": 27
+        }
+      },
+      {
+        "id": "c4",
+        "control_type": "text_input",
+        "label": "Response",
+        "box": {
+          "x": 450,
+          "y": 236,
+          "width": 650,
+          "height": 52
+        }
+      },
+      {
+        "id": "c5",
+        "control_type": "select",
+        "label": "Priority",
+        "box": {
+          "x": 450,
+          "y": 386,
+          "width": 650,
+          "height": 52
+        }
+      }
+    ]
+  },
+  {
+    "image": "holdout_16.png",
+    "width": 1280,
+    "height": 860,
+    "controls": [
+      {
+        "id": "c1",
+        "control_type": "text_input",
+        "label": "Organization",
+        "box": {
+          "x": 90,
+          "y": 221,
+          "width": 1000,
+          "height": 52
+        }
+      },
+      {
+        "id": "c2",
+        "control_type": "text_input",
+        "label": "Project title",
+        "box": {
+          "x": 90,
+          "y": 341,
+          "width": 1000,
+          "height": 52
+        }
+      },
+      {
+        "id": "c3",
+        "control_type": "text_input",
+        "label": "Project summary",
+        "box": {
+          "x": 90,
+          "y": 461,
+          "width": 1000,
+          "height": 120
+        }
+      },
+      {
+        "id": "c4",
+        "control_type": "checkbox",
+        "label": "Publish summary",
+        "box": {
+          "x": 90,
+          "y": 625,
+          "width": 27,
+          "height": 27
+        }
+      }
+    ]
+  },
+  {
+    "image": "holdout_17.png",
+    "width": 1280,
+    "height": 860,
+    "controls": [
+      {
+        "id": "c1",
+        "control_type": "select",
+        "label": "Language",
+        "box": {
+          "x": 90,
+          "y": 216,
+          "width": 330,
+          "height": 52
+        }
+      },
+      {
+        "id": "c2",
+        "control_type": "select",
+        "label": "Timezone",
+        "box": {
+          "x": 475,
+          "y": 216,
+          "width": 330,
+          "height": 52
+        }
+      },
+      {
+        "id": "c3",
+        "control_type": "select",
+        "label": "Format",
+        "box": {
+          "x": 860,
+          "y": 216,
+          "width": 330,
+          "height": 52
+        }
+      },
+      {
+        "id": "c4",
+        "control_type": "checkbox",
+        "label": "I need assistance",
+        "box": {
+          "x": 90,
+          "y": 365,
+          "width": 27,
+          "height": 27
+        }
+      },
+      {
+        "id": "c5",
+        "control_type": "checkbox",
+        "label": "Send confirmation",
+        "box": {
+          "x": 400,
+          "y": 365,
+          "width": 27,
+          "height": 27
+        }
+      }
+    ]
+  },
+  {
+    "image": "holdout_18.png",
+    "width": 1280,
+    "height": 860,
+    "controls": [
+      {
+        "id": "c1",
+        "control_type": "text_input",
+        "label": "Reference",
+        "box": {
+          "x": 560,
+          "y": 211,
+          "width": 560,
+          "height": 52
+        }
+      },
+      {
+        "id": "c2",
+        "control_type": "text_input",
+        "label": "Description",
+        "box": {
+          "x": 560,
+          "y": 331,
+          "width": 560,
+          "height": 110
+        }
+      },
+      {
+        "id": "c3",
+        "control_type": "checkbox",
+        "label": "Urgent request",
+        "box": {
+          "x": 560,
+          "y": 485,
+          "width": 27,
+          "height": 27
+        }
+      },
+      {
+        "id": "c4",
+        "control_type": "select",
+        "label": "Department",
+        "box": {
+          "x": 560,
+          "y": 591,
+          "width": 560,
+          "height": 52
+        }
+      }
+    ]
+  },
+  {
+    "image": "holdout_19.png",
+    "width": 1280,
+    "height": 860,
+    "controls": [
+      {
+        "id": "c1",
+        "control_type": "text_input",
+        "label": "Email",
+        "box": {
+          "x": 90,
+          "y": 226,
+          "width": 500,
+          "height": 52
+        }
+      },
+      {
+        "id": "c2",
+        "control_type": "checkbox",
+        "label": "Daily digest",
+        "box": {
+          "x": 90,
+          "y": 330,
+          "width": 27,
+          "height": 27
+        }
+      },
+      {
+        "id": "c3",
+        "control_type": "checkbox",
+        "label": "Weekly digest",
+        "box": {
+          "x": 270,
+          "y": 330,
+          "width": 27,
+          "height": 27
+        }
+      },
+      {
+        "id": "c4",
+        "control_type": "select",
+        "label": "Digest format",
+        "box": {
+          "x": 90,
+          "y": 461,
+          "width": 500,
+          "height": 52
+        }
+      },
+      {
+        "id": "c5",
+        "control_type": "checkbox",
+        "label": "Agree",
+        "box": {
+          "x": 90,
+          "y": 570,
+          "width": 27,
+          "height": 27
+        }
+      }
+    ]
+  },
+  {
+    "image": "holdout_20.png",
+    "width": 1280,
+    "height": 860,
+    "controls": [
+      {
+        "id": "c1",
+        "control_type": "text_input",
+        "label": "Name",
+        "box": {
+          "x": 95,
+          "y": 221,
+          "width": 1090,
+          "height": 52
+        }
+      },
+      {
+        "id": "c2",
+        "control_type": "select",
+        "label": "Region",
+        "box": {
+          "x": 95,
+          "y": 356,
+          "width": 520,
+          "height": 52
+        }
+      },
+      {
+        "id": "c3",
+        "control_type": "text_input",
+        "label": "Date",
+        "box": {
+          "x": 665,
+          "y": 356,
+          "width": 520,
+          "height": 52
+        }
+      },
+      {
+        "id": "c4",
+        "control_type": "checkbox",
+        "label": "Terms accepted",
+        "box": {
+          "x": 95,
+          "y": 485,
+          "width": 27,
+          "height": 27
+        }
+      },
+      {
+        "id": "c5",
+        "control_type": "checkbox",
+        "label": "Contact me",
+        "box": {
+          "x": 420,
+          "y": 485,
+          "width": 27,
+          "height": 27
+        }
+      }
+    ]
+  }
+]

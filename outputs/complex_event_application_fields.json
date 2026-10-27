@@ -1,0 +1,335 @@
+{
+  "schema_version": "1.0",
+  "fields": [
+    {
+      "id": "field_01",
+      "control_type": "text_input",
+      "detector_class": "Text Input",
+      "bounding_box": {
+        "x": 125,
+        "y": 356,
+        "width": 521,
+        "height": 58
+      },
+      "detector_confidence": 0.903,
+      "label": "Full Name",
+      "label_box": {
+        "x": 119,
+        "y": 311,
+        "width": 120,
+        "height": 35
+      },
+      "ocr_confidence": 1.0,
+      "match_confidence": 0.964,
+      "confidence": 0.94
+    },
+    {
+      "id": "field_02",
+      "control_type": "text_input",
+      "detector_class": "Text Input",
+      "bounding_box": {
+        "x": 760,
+        "y": 356,
+        "width": 519,
+        "height": 58
+      },
+      "detector_confidence": 0.895,
+      "label": "Email Address",
+      "label_box": {
+        "x": 756,
+        "y": 313,
+        "width": 163,
+        "height": 31
+      },
+      "ocr_confidence": 1.0,
+      "match_confidence": 0.97,
+      "confidence": 0.936
+    },
+    {
+      "id": "field_03",
+      "control_type": "text_input",
+      "detector_class": "Text Input",
+      "bounding_box": {
+        "x": 125,
+        "y": 496,
+        "width": 521,
+        "height": 58
+      },
+      "detector_confidence": 0.872,
+      "label": "Phone Number",
+      "label_box": {
+        "x": 120,
+        "y": 451,
+        "width": 170,
+        "height": 33
+      },
+      "ocr_confidence": 0.991,
+      "match_confidence": 0.968,
+      "confidence": 0.921
+    },
+    {
+      "id": "field_04",
+      "control_type": "text_input",
+      "detector_class": "Text Input",
+      "bounding_box": {
+        "x": 760,
+        "y": 496,
+        "width": 521,
+        "height": 58
+      },
+      "detector_confidence": 0.857,
+      "label": "Organization",
+      "label_box": {
+        "x": 755,
+        "y": 451,
+        "width": 147,
+        "height": 37
+      },
+      "ocr_confidence": 1.0,
+      "match_confidence": 0.974,
+      "confidence": 0.916
+    },
+    {
+      "id": "field_05",
+      "control_type": "text_input",
+      "detector_class": "Text Input",
+      "bounding_box": {
+        "x": 125,
+        "y": 736,
+        "width": 520,
+        "height": 58
+      },
+      "detector_confidence": 0.814,
+      "label": "Preferred Event Date",
+      "label_box": {
+        "x": 120,
+        "y": 691,
+        "width": 234,
+        "height": 32
+      },
+      "ocr_confidence": 0.999,
+      "match_confidence": 0.969,
+      "confidence": 0.891
+    },
+    {
+      "id": "field_06",
+      "control_type": "select",
+      "detector_class": "Select",
+      "bounding_box": {
+        "x": 761,
+        "y": 736,
+        "width": 521,
+        "height": 58
+      },
+      "detector_confidence": 0.886,
+      "label": "Attendance Type",
+      "label_box": {
+        "x": 754,
+        "y": 691,
+        "width": 191,
+        "height": 36
+      },
+      "ocr_confidence": 0.967,
+      "match_confidence": 0.971,
+      "confidence": 0.923
+    },
+    {
+      "id": "field_07",
+      "control_type": "radio",
+      "detector_class": "Radiobox",
+      "bounding_box": {
+        "x": 172,
+        "y": 876,
+        "width": 72,
+        "height": 29
+      },
+      "detector_confidence": 0.344,
+      "label": "Session Preference",
+      "label_box": {
+        "x": 121,
+        "y": 832,
+        "width": 215,
+        "height": 32
+      },
+      "ocr_confidence": 1.0,
+      "match_confidence": 0.978,
+      "confidence": 0.635
+    },
+    {
+      "id": "field_08",
+      "control_type": "radio",
+      "detector_class": "Radiobox",
+      "bounding_box": {
+        "x": 501,
+        "y": 876,
+        "width": 94,
+        "height": 32
+      },
+      "detector_confidence": 0.265,
+      "label": "Afternoon",
+      "label_box": {
+        "x": 336,
+        "y": 875,
+        "width": 99,
+        "height": 28
+      },
+      "ocr_confidence": 1.0,
+      "match_confidence": 0.944,
+      "confidence": 0.585
+    },
+    {
+      "id": "field_09",
+      "control_type": "radio",
+      "detector_class": "Radiobox",
+      "bounding_box": {
+        "x": 130,
+        "y": 880,
+        "width": 29,
+        "height": 29
+      },
+      "detector_confidence": 0.519,
+      "label": "Morning",
+      "label_box": {
+        "x": 163,
+        "y": 873,
+        "width": 87,
+        "height": 35
+      },
+      "ocr_confidence": 1.0,
+      "match_confidence": 0.974,
+      "confidence": 0.731
+    },
+    {
+      "id": "field_10",
+      "control_type": "radio",
+      "detector_class": "Radiobox",
+      "bounding_box": {
+        "x": 300,
+        "y": 880,
+        "width": 29,
+        "height": 29
+      },
+      "detector_confidence": 0.619,
+      "label": "Either",
+      "label_box": {
+        "x": 535,
+        "y": 873,
+        "width": 66,
+        "height": 31
+      },
+      "ocr_confidence": 1.0,
+      "match_confidence": 0.885,
+      "confidence": 0.767
+    },
+    {
+      "id": "field_11",
+      "control_type": "radio",
+      "detector_class": "Radiobox",
+      "bounding_box": {
+        "x": 500,
+        "y": 880,
+        "width": 29,
+        "height": 29
+      },
+      "detector_confidence": 0.659,
+      "label": "Wheelchair access",
+      "label_box": {
+        "x": 802,
+        "y": 876,
+        "width": 176,
+        "height": 26
+      },
+      "ocr_confidence": 1.0,
+      "match_confidence": 0.863,
+      "confidence": 0.785
+    },
+    {
+      "id": "field_12",
+      "control_type": "checkbox",
+      "detector_class": "Checkbox",
+      "bounding_box": {
+        "x": 765,
+        "y": 880,
+        "width": 29,
+        "height": 29
+      },
+      "detector_confidence": 0.494,
+      "label": "Accessibility needs",
+      "label_box": {
+        "x": 757,
+        "y": 834,
+        "width": 207,
+        "height": 30
+      },
+      "ocr_confidence": 1.0,
+      "match_confidence": 0.971,
+      "confidence": 0.716
+    },
+    {
+      "id": "field_13",
+      "control_type": "checkbox",
+      "detector_class": "Checkbox",
+      "bounding_box": {
+        "x": 1010,
+        "y": 880,
+        "width": 29,
+        "height": 29
+      },
+      "detector_confidence": 0.537,
+      "label": "Sign-language interpreter",
+      "label_box": {
+        "x": 1047,
+        "y": 876,
+        "width": 234,
+        "height": 27
+      },
+      "ocr_confidence": 0.997,
+      "match_confidence": 0.967,
+      "confidence": 0.738
+    },
+    {
+      "id": "field_14",
+      "control_type": "text_input",
+      "detector_class": "Text Input",
+      "bounding_box": {
+        "x": 132,
+        "y": 1085,
+        "width": 1109,
+        "height": 111
+      },
+      "detector_confidence": 0.898,
+      "label": "Tell us about your goals",
+      "label_box": {
+        "x": 120,
+        "y": 1041,
+        "width": 262,
+        "height": 35
+      },
+      "ocr_confidence": 1.0,
+      "match_confidence": 0.968,
+      "confidence": 0.937
+    },
+    {
+      "id": "field_15",
+      "control_type": "checkbox",
+      "detector_class": "Checkbox",
+      "bounding_box": {
+        "x": 125,
+        "y": 1225,
+        "width": 29,
+        "height": 29
+      },
+      "detector_confidence": 0.715,
+      "label": "I agree to the event terms and privacy policy",
+      "label_box": {
+        "x": 162,
+        "y": 1220,
+        "width": 405,
+        "height": 30
+      },
+      "ocr_confidence": 0.995,
+      "match_confidence": 1.0,
+      "confidence": 0.842
+    }
+  ]
+}

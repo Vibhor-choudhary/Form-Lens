@@ -1,0 +1,439 @@
+[
+  {
+    "image": "w4-1.png",
+    "source": "https://www.irs.gov/pub/irs-pdf/fw4.pdf",
+    "controls": [
+      {
+        "id": "w4-c1",
+        "control_type": "checkbox",
+        "label": "Single or Married filing separately",
+        "box": {
+          "x": 238,
+          "y": 327,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "id": "w4-c2",
+        "control_type": "checkbox",
+        "label": "Married filing jointly or Qualifying surviving spouse",
+        "box": {
+          "x": 238,
+          "y": 352,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "id": "w4-c3",
+        "control_type": "checkbox",
+        "label": "Head of household",
+        "box": {
+          "x": 238,
+          "y": 376,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "id": "w4-c4",
+        "control_type": "checkbox",
+        "label": "Exempt from withholding",
+        "box": {
+          "x": 1172,
+          "y": 1360,
+          "width": 22,
+          "height": 22
+        }
+      }
+    ]
+  },
+  {
+    "image": "i9-1.png",
+    "source": "https://www.uscis.gov/sites/default/files/document/forms/i-9.pdf",
+    "controls": [
+      {
+        "id": "i9-c1",
+        "control_type": "text_input",
+        "label": "Date of Birth",
+        "box": {
+          "x": 310,
+          "y": 445,
+          "width": 226,
+          "height": 25
+        }
+      },
+      {
+        "id": "i9-c2",
+        "control_type": "text_input",
+        "label": "U.S. Social Security Number",
+        "box": {
+          "x": 310,
+          "y": 469,
+          "width": 226,
+          "height": 29
+        }
+      },
+      {
+        "id": "i9-c3",
+        "control_type": "checkbox",
+        "label": "A citizen of the United States",
+        "box": {
+          "x": 378,
+          "y": 539,
+          "width": 21,
+          "height": 22
+        }
+      },
+      {
+        "id": "i9-c4",
+        "control_type": "checkbox",
+        "label": "A noncitizen national of the United States",
+        "box": {
+          "x": 378,
+          "y": 563,
+          "width": 21,
+          "height": 23
+        }
+      },
+      {
+        "id": "i9-c5",
+        "control_type": "checkbox",
+        "label": "A lawful permanent resident",
+        "box": {
+          "x": 378,
+          "y": 590,
+          "width": 21,
+          "height": 21
+        }
+      },
+      {
+        "id": "i9-c6",
+        "control_type": "checkbox",
+        "label": "An alien authorized to work until",
+        "box": {
+          "x": 378,
+          "y": 614,
+          "width": 21,
+          "height": 22
+        }
+      },
+      {
+        "id": "i9-c7",
+        "control_type": "text_input",
+        "label": "USCIS A-Number",
+        "box": {
+          "x": 575,
+          "y": 674,
+          "width": 225,
+          "height": 28
+        }
+      },
+      {
+        "id": "i9-c8",
+        "control_type": "text_input",
+        "label": "Form I-94 Admission Number",
+        "box": {
+          "x": 575,
+          "y": 700,
+          "width": 225,
+          "height": 26
+        }
+      },
+      {
+        "id": "i9-c9",
+        "control_type": "text_input",
+        "label": "Foreign Passport Number and Country of Issuance",
+        "box": {
+          "x": 825,
+          "y": 700,
+          "width": 375,
+          "height": 26
+        }
+      }
+    ]
+  },
+  {
+    "image": "w9-1.png",
+    "source": "https://www.irs.gov/pub/irs-pdf/fw9.pdf",
+    "controls": [
+      {
+        "id": "w9-c1",
+        "control_type": "checkbox",
+        "label": "Individual/sole proprietor",
+        "box": {
+          "x": 151,
+          "y": 374,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "id": "w9-c2",
+        "control_type": "checkbox",
+        "label": "C corporation",
+        "box": {
+          "x": 373,
+          "y": 374,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "id": "w9-c3",
+        "control_type": "checkbox",
+        "label": "S corporation",
+        "box": {
+          "x": 523,
+          "y": 374,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "id": "w9-c4",
+        "control_type": "checkbox",
+        "label": "Partnership",
+        "box": {
+          "x": 673,
+          "y": 374,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "id": "w9-c5",
+        "control_type": "checkbox",
+        "label": "Trust/estate",
+        "box": {
+          "x": 808,
+          "y": 374,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "id": "w9-c6",
+        "control_type": "checkbox",
+        "label": "LLC",
+        "box": {
+          "x": 151,
+          "y": 402,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "id": "w9-c7",
+        "control_type": "checkbox",
+        "label": "Other",
+        "box": {
+          "x": 151,
+          "y": 478,
+          "width": 20,
+          "height": 20
+        }
+      }
+    ]
+  },
+  {
+    "image": "f1040-1.png",
+    "source": "https://www.irs.gov/pub/irs-pdf/f1040.pdf",
+    "controls": [
+      {
+        "id": "1040-c1",
+        "control_type": "checkbox",
+        "label": "You",
+        "box": {
+          "x": 1003,
+          "y": 404,
+          "width": 21,
+          "height": 19
+        }
+      },
+      {
+        "id": "1040-c2",
+        "control_type": "checkbox",
+        "label": "Spouse",
+        "box": {
+          "x": 1093,
+          "y": 404,
+          "width": 21,
+          "height": 19
+        }
+      },
+      {
+        "id": "1040-c3",
+        "control_type": "checkbox",
+        "label": "Single",
+        "box": {
+          "x": 202,
+          "y": 428,
+          "width": 20,
+          "height": 19
+        }
+      },
+      {
+        "id": "1040-c4",
+        "control_type": "checkbox",
+        "label": "Married filing jointly",
+        "box": {
+          "x": 202,
+          "y": 452,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "id": "1040-c5",
+        "control_type": "checkbox",
+        "label": "Head of household",
+        "box": {
+          "x": 727,
+          "y": 428,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "id": "1040-c6",
+        "control_type": "checkbox",
+        "label": "Yes",
+        "box": {
+          "x": 1080,
+          "y": 619,
+          "width": 20,
+          "height": 20
+        }
+      },
+      {
+        "id": "1040-c7",
+        "control_type": "checkbox",
+        "label": "No",
+        "box": {
+          "x": 1153,
+          "y": 619,
+          "width": 20,
+          "height": 20
+        }
+      }
+    ]
+  },
+  {
+    "image": "i765-1.png",
+    "source": "https://www.uscis.gov/sites/default/files/document/forms/i-765.pdf",
+    "controls": [
+      {
+        "id": "i765-c1",
+        "control_type": "checkbox",
+        "label": "Authorization/Extension Valid From",
+        "box": {
+          "x": 155,
+          "y": 192,
+          "width": 22,
+          "height": 22
+        }
+      },
+      {
+        "id": "i765-c2",
+        "control_type": "checkbox",
+        "label": "Authorization/Extension Valid Through",
+        "box": {
+          "x": 155,
+          "y": 280,
+          "width": 22,
+          "height": 22
+        }
+      },
+      {
+        "id": "i765-c3",
+        "control_type": "checkbox",
+        "label": "Select this box if Form G-28 is attached",
+        "box": {
+          "x": 350,
+          "y": 526,
+          "width": 23,
+          "height": 23
+        }
+      },
+      {
+        "id": "i765-c4",
+        "control_type": "checkbox",
+        "label": "Initial permission to accept employment",
+        "box": {
+          "x": 126,
+          "y": 776,
+          "width": 23,
+          "height": 23
+        }
+      },
+      {
+        "id": "i765-c5",
+        "control_type": "checkbox",
+        "label": "Replacement of lost, stolen, or damaged employment authorization document",
+        "box": {
+          "x": 126,
+          "y": 813,
+          "width": 23,
+          "height": 23
+        }
+      },
+      {
+        "id": "i765-c6",
+        "control_type": "text_input",
+        "label": "Family Name",
+        "box": {
+          "x": 836,
+          "y": 848,
+          "width": 365,
+          "height": 41
+        }
+      },
+      {
+        "id": "i765-c7",
+        "control_type": "text_input",
+        "label": "Given Name",
+        "box": {
+          "x": 836,
+          "y": 898,
+          "width": 365,
+          "height": 41
+        }
+      },
+      {
+        "id": "i765-c8",
+        "control_type": "text_input",
+        "label": "Middle Name",
+        "box": {
+          "x": 836,
+          "y": 948,
+          "width": 365,
+          "height": 41
+        }
+      },
+      {
+        "id": "i765-c9",
+        "control_type": "text_input",
+        "label": "Family Name",
+        "box": {
+          "x": 248,
+          "y": 1336,
+          "width": 366,
+          "height": 41
+        }
+      },
+      {
+        "id": "i765-c10",
+        "control_type": "text_input",
+        "label": "Given Name",
+        "box": {
+          "x": 249,
+          "y": 1386,
+          "width": 365,
+          "height": 41
+        }
+      }
+    ]
+  }
+]

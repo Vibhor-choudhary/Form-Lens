@@ -1,0 +1,12 @@
+{
+  "set": "phase3.1_holdout",
+  "screenshots": 10,
+  "detector_confidence": 0.18,
+  "detector_imgsz": 1280,
+  "detector_iou": 0.3,
+  "compact_control_aspect_ratio_max": 1.8,
+  "association_acceptance_score": 0.45,
+  "association_uncertain_below": 0.7,
+  "detection_iou_match": 0.5,
+  "pipeline_commit_state": "working tree after Phase 3 development-set tuning; no holdout-driven changes"
+}
