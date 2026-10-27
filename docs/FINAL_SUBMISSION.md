@@ -43,3 +43,7 @@ These results are separate and must not be pooled. The real-world experiment sho
 ## Limitations and submission boundary
 
 ScreenParser is a pretrained detector, not a model trained for this project. Performance is weaker on scanned/paper forms, dense tables, barcodes, handwriting, filled forms, and labels embedded in instructional prose. Feature development is frozen; browser autofill, training, fine-tuning, additional models, cloud inference, and database workflows are outside this submission.
+
+## Deployment note
+
+The canonical runtime is local Streamlit. Vercel can link the GitHub project, but it does not provide the persistent Python process required by Streamlit; therefore no misleading Vercel runtime deployment is claimed. Use the local command above or a Streamlit-compatible Python host if remote hosting is required later.

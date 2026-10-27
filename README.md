@@ -34,3 +34,5 @@ Hindi OCR and browser DOM matching are intentionally outside this MVP.
 - `evaluation/real_world/REPORT.md` — separate five-form robustness check.
 
 Inference is local and uses the isolated `.venv`. No cloud API, browser extension, database, Docker, Node.js, local LLM, training dataset, or fine-tuning is required.
+
+Vercel is not the runtime target for this Streamlit server. The GitHub project can be linked to Vercel, but the app requires a persistent Python/Streamlit process; run it locally or on a Streamlit-compatible Python host.
